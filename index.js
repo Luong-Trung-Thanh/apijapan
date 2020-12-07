@@ -13,10 +13,10 @@ app.get('/', function (req, res) {
 // config connect db
 var mysql = require('mysql');
 var con = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "japanese"
+  host: "us-cdbr-east-02.cleardb.com",
+  user: "bfc05c55de395d",
+  password: "c083be13",
+  database: "heroku_d816686ed15d0e3"
 });
 
 
